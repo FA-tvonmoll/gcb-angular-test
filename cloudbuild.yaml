@@ -1,6 +1,6 @@
 steps:
 - name: 'ubuntu'
-  args: ['bash', 'install-chrome.sh']
+  args: ['bash', 'install-firefox.sh']
 - name: 'gcr.io/cloud-builders/npm'
   args: ['install']
 - name: 'gcr.io/cloud-builders/npm'
